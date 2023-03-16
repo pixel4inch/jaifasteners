@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="Jai Fasteners " />
+  <meta name="description" content="Jai Fasteners " />
+  <meta name="author" content="" />
+  <title>Jai Fasteners </title>
+
+
+  <!-- Fav icons -->
+  <link rel="icons" href="./images/Jaifasteners/logo.ico" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/theme.css" rel="stylesheet" />
+  <link href="css/custome.css" rel="stylesheet" />
+
+  <!---Scripts--->
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script src="./Components/topAddress_Strip.js"></script>
+
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+
+    <top-address-strip></top-address-strip>
+
+
+    <header class="header_section bg-white shadow-sm">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <div class="d-flex align-items-center py-2">
+            <a class="navbar-brand mr-2" href="index.html">
+              <img src="images/Jaifasteners/logo.svg" class="d-block" alt="" />
+            </a>
+            <span class="d-block navbar-brand-text">
+              JAI FASTENERS (P) LTD
+            </span>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About Us</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="product.html "> Products </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="marketserved.html"> Markets Served </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="management.html"> Management</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+  </div>
+
+
+  <!-- product section -->
+  <section class="product_section layout_padding" id="product_section">
+
+
+    <div class="heading_container ">
+      <h2><span> Our Products</span></h2>
+    </div>
+
+    <div class="row mx-0 py-4">
+      <div class="container">
+        <div class="w-100 ">
+          <h5 class="font-weight-bold pt-2 mt-0 pl-4 main-font-color d-block">Specialized Products</h5>
+        </div>
+        <div class="product_container pt-2" id="Specialized">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mx-0 bg-light py-4">
+      <div class="container">
+        <div class="w-100  ">
+          <h5 class="font-weight-bold pt-2 mt-3 pl-4 main-font-color d-block">Brass & Copper Metal Parts</h5>
+        </div>
+        <div class="product_container pt-2" id="Brass_Copper">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mx-0 py-4">
+      <div class="container">
+        <div class="w-100 ">
+          <h5 class="font-weight-bold pt-2 mt-3 pl-4 main-font-color d-block">Products for Rail Industry</h5>
+        </div>
+        <div class="product_container pt-2" id="RailIndustry">
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mx-0 bg-light py-4">
+      <div class="container">
+        <div class="w-100  ">
+          <h5 class="font-weight-bold pt-2 mt-3 pl-4 main-font-color d-block">Products for Cement & Steel Plants</h5>
+        </div>
+        <div class="product_container pt-2" id="Cement-Steel">
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $.getJSON("./data/products.json", function (data) {
+          var output = '';
+          var output2 = '';
+          var output3 = '';
+          var output4 = '';
+          console.log(data)
+          $.each(data.Products_list, function (key, value) {
+
+            if (value.productType == "Specialized") {
+              output += `
+                          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6  text-center mb-4">
+                            <img src="` + value.ProductImage + `" class="img-fluid" alt="` + value.ProductName + `" />
+                          <div class="text-center mt-3">
+                            <h6 class="mb-0 font-weight-500">` + value.ProductName + `</h6>
+                            <p class="mb-0"><small>` + value.ProductAdditinalInfo + `</small></p>
+                          </div>
+                        </div> 
+                `;
+            } else if (value.productType == "Brass_Copper") {
+              output2 += `
+                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6  text-center mb-4">
+                            <img src="` + value.ProductImage + `" class="img-fluid" alt="` + value.ProductName + `" />
+                          <div class="text-center mt-3">
+                            <h6 class="mb-0 font-weight-500">` + value.ProductName + `</h6>
+                            <p class="mb-0"><small>` + value.ProductAdditinalInfo + `</small></p>
+                          </div>
+                        </div> 
+                `;
+            } else if (value.productType == "RailIndustry") {
+              output3 += `
+                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6  text-center mb-4">
+                            <img src="` + value.ProductImage + `" class="img-fluid" alt="` + value.ProductName + `" />
+                          <div class="text-center mt-3">
+                            <h6 class="mb-0 font-weight-500">` + value.ProductName + `</h6>
+                            <p class="mb-0"><small>` + value.ProductAdditinalInfo + `</small></p>
+                          </div>
+                        </div> 
+                `;
+            } else if (value.productType == "Cement-Steel") {
+              output4 += `
+                       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6  text-center mb-4">
+                            <img src="` + value.ProductImage + `" class="img-fluid" alt="` + value.ProductName + `" />
+                          <div class="text-center mt-3">
+                            <h6 class="mb-0 font-weight-500">` + value.ProductName + `</h6>
+                            <p class="mb-0"><small>` + value.ProductAdditinalInfo + `</small></p>
+                          </div>
+                        </div> 
+                `;
+
+            }
+          });
+
+          $('#Specialized').html(output);
+          $('#Brass_Copper').html(output2);
+          $('#RailIndustry').html(output3);
+          $('#Cement-Steel').html(output4);
+        }).fail(function () {
+          document.write("An error has occurred.");
+        });
+      });
+    </script>
+
+
+  </section>
+
+  <!-- end product section -->
+
+
+
+  <!-- end contact section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      ©
+      <script language="JavaScript">document.write(new Date().getFullYear());</script> Jai Fasteners, All Rights
+      Reserved.</small>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>

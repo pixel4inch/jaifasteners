@@ -1,0 +1,270 @@
+{
+    "Products_list": [
+        {
+            "productId": 1,
+            "productType": "Specialized",
+            "ProductName": "High Tensile and MS Fasteners",
+            "ProductAdditinalInfo": "(as per ASTM and IS)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 2,
+            "productType": "Specialized",
+            "ProductName": "Special Grade High Tensile Fasteners",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 3,
+            "productType": "Specialized",
+            "ProductName": "Sag Rods and Brace Rods",
+            "ProductAdditinalInfo": "(4.6, 8.8, and 10.9 Grade)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 4,
+            "productType": "Specialized",
+            "ProductName": "Foundation Bolts and Anchor Bolts",
+            "ProductAdditinalInfo": "(4.6, 8.8, and 10.9 Grade)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 5,
+            "productType": "Specialized",
+            "ProductName": "MS HEX Bolts, HEX Nuts, and Washers ",
+            "ProductAdditinalInfo": "(4.6 and 5.6 Grade)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 6,
+            "productType": "Specialized",
+            "ProductName": "Electroplating, Parkerizing Fasteners, and Hot Dip Galvanizing",
+            "ProductAdditinalInfo": " ",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 7,
+            "productType": "Specialized",
+            "ProductName": "SS Fasteners",
+            "ProductAdditinalInfo": "(202, 304, 316) ",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 8,
+            "productType": "Specialized",
+            "ProductName": "Special Fasteners for Cement and Steel Industries",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 9,
+            "productType": "Specialized",
+            "ProductName": "Industrial and Automobile Fasteners ",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 10,
+            "productType": "Specialized",
+            "ProductName": "Shear Studs",
+            "ProductAdditinalInfo": "(Various Diameters)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 11,
+            "productType": "Specialized",
+            "ProductName": "Brass and Copper Metal Parts for Transformers, Switchgears, and Power Industries",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 12,
+            "productType": "Specialized",
+            "ProductName": "SS and MS Flanges",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 13,
+            "productType": "Specialized",
+            "ProductName": "SS and MS Pipe Fittings",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 14,
+            "productType": "Specialized",
+            "ProductName": "SS and MS Fabrication ",
+            "ProductAdditinalInfo": "(as per your requirement)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 15,
+            "productType": "Specialized",
+            "ProductName": "Special Fasteners for Automobiles",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 16,
+            "productType": "Specialized",
+            "ProductName": "Anchor Bolts & Foundation Bolts",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 17,
+            "productType": "Specialized",
+            "ProductName": "Sag Rods & Base Rods",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 18,
+            "productType": "Specialized",
+            "ProductName": "MS & HT Tie Rods & Clamping Rods",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 19,
+            "productType": "Specialized",
+            "ProductName": "Air-Releasing Plugs",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 20,
+            "productType": "Specialized",
+            "ProductName": "Oil-Filling Plugs",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 21,
+            "productType": "Specialized",
+            "ProductName": "Drain cum Sampling Value ",
+            "ProductAdditinalInfo": "(T-Value)",
+            "ProductImage": "images/products/sample.jpg"
+        },
+        {
+            "productId": 22,
+            "productType": "Brass_Copper",
+            "ProductName": "Brass_Copper HV, LV Steam",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 23,
+            "productType": "Brass_Copper",
+            "ProductName": "Brass Caps",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 24,
+            "productType": "Brass_Copper",
+            "ProductName": "Brass Steam Washers",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 25,
+            "productType": "Brass_Copper",
+            "ProductName": "Brass Top End Washers",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 26,
+            "productType": "Brass_Copper",
+            "ProductName": "Brass Connectors & Eye Bolts",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 27,
+            "productType": "Brass_Copper",
+            "ProductName": "Brass_Copper Connecting Legs for Power Transformers",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 28,
+            "productType": "Brass_Copper",
+            "ProductName": "Bi-Metallic Connectors",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample2.jpg"
+        },
+        {
+            "productId": 29,
+            "productType": "RailIndustry",
+            "ProductName": "Rail Coach Pins ",
+            "ProductAdditinalInfo": "(Electroplating and Fully Machined)",
+            "ProductImage": "images/products/sample3.jpg"
+        },
+        {
+            "productId": 30,
+            "productType": "RailIndustry",
+            "ProductName": "Bogie Pins for Rail Coach",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample3.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "RailIndustry",
+            "ProductName": "Special Fasteners for Railways",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample3.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Special Bolts, Nuts and Washers",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample4.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Foundation Bolts and Anchor Bolts",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample4.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Surface Finish",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample4.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Self Colored",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample4.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Black Phosphated",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample4.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Zinc Coated",
+            "ProductAdditinalInfo": "(White & Yellow)",
+            "ProductImage": "images/products/sample4.jpg"
+        },
+        {
+            "productId": 31,
+            "productType": "Cement-Steel",
+            "ProductName": "Hot Dip Galvanized",
+            "ProductAdditinalInfo": "",
+            "ProductImage": "images/products/sample4.jpg"
+        }
+    ]
+}
